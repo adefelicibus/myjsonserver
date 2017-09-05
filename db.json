@@ -8,7 +8,22 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "files": [
+    { "id": 1, "name": "", "studyID": "" }
+  ],
+  "studies": [
+    { "researcher": "",
+      "email": "",
+      "center": "",
+      "project": "",
+      "name_study": "",
+      "description_study": "",
+      "type_cancer": "",
+      "subtype_cancer": "",
+      "new_type_cancer": "",
+      "new_subtype_cancer": "",
+      "data_files": "",
+      "data_file_url": ""
+    }
+  ]
 }
