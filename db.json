@@ -1,29 +1,137 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "cancer_types": [
+    {
+      "id": 1,
+      "name": "BLCA : Bladder Urothelial Carcinoma"
+    },
+    {
+      "id": 2,
+      "name": "BRCA : Breast invasive carcinoma"
+    },
+    {
+      "id": 3,
+      "name": "CESC : Cervical Squamous Cell Carcinoma"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "cancer_subtypes": [
+    {
+      "id": 1,
+      "name": "Bladder Urothelial Carcinoma",
+      "cancerTypeID": 1
+    },
+    {
+      "id": 0,
+      "name": "Other",
+      "cancerTypeID": 1
+    },
+    {
+      "id": 1,
+      "name": "Invasive Breast Carcinoma",
+      "cancerTypeID": 2
+    },
+    {
+      "id": 0,
+      "name": "Other",
+      "cancerTypeID": 2
+    },
+    {
+      "id": 1,
+      "name": "Multiple Myeloma",
+      "cancerTypeID": 3
+    },
+    {
+      "id": 0,
+      "name": "Other",
+      "cancerTypeID": 3
+    }
   ],
-  "files": [
-    { "id": 1, "name": "", "studyID": "" }
+  "data_files": [
+    {
+      "id": 1,
+      "name": "Illumina"
+    },
+    {
+      "id": 2,
+      "name": "Ion"
+    },
+    {
+      "id": 0,
+      "name": "HD"
+    }
   ],
   "studies": [
-    { "researcher": "",
-      "email": "",
-      "center": "",
-      "project": "",
-      "name_study": "",
-      "description_study": "",
-      "type_cancer": "",
-      "subtype_cancer": "",
-      "new_type_cancer": "",
-      "new_subtype_cancer": "",
-      "data_files": "",
-      "data_file_url": ""
+    {
+      "id": "3c913f5f-4a6d-4655-a629-17684936d792",
+      "researcher": "Alexandre Defelicibus",
+      "email": "adefelicibus@gmail.com",
+      "center": "ACCCC",
+      "project": "Teste proj",
+      "name_study": "Bladder Urothelial Carcinoma(ACCCC, Teste proj)",
+      "description_study": "Teste api pro",
+      "type_cancer": "BLCA : Bladder Urothelial Carcinoma",
+      "subtype_cancer": "Bladder Urothelial Carcinoma",
+      "new_type_cancer": "undefined",
+      "new_subtype_cancer": "undefined",
+      "data_files": "HD",
+      "data_file_url": "HD"
+    },
+    {
+      "id": "c53f2dd4-b5f0-492d-825f-683f9f1333aa",
+      "researcher": "Israel Tojal",
+      "email": "itojal@gmail.com",
+      "center": "CIPE",
+      "project": "Gastrico CIPE",
+      "name_study": "Invasive Breast Carcinoma(CIPE, Gastrico CIPE)",
+      "description_study": "Gastrico com 12 amostras",
+      "type_cancer": "BRCA : Breast invasive carcinoma",
+      "subtype_cancer": "Invasive Breast Carcinoma",
+      "new_type_cancer": "undefined",
+      "new_subtype_cancer": "undefined",
+      "data_files": "Illumina",
+      "data_file_url": "http://oi.com.br"
+    },
+    {
+      "id": "36b6a5f4-444d-41b5-b55d-e0b7196a3b72",
+      "researcher": "Renan Valeris",
+      "email": "renanv@gmail.com",
+      "center": "CIPE",
+      "project": "Bioinformática",
+      "name_study": "Multiple Myeloma(CIPE, Bioinformática)",
+      "description_study": "Teste de estudo",
+      "type_cancer": "CESC : Cervical Squamous Cell Carcinoma",
+      "subtype_cancer": "Multiple Myeloma",
+      "new_type_cancer": "undefined",
+      "new_subtype_cancer": "undefined",
+      "data_files": "Ion",
+      "data_file_url": "http://ion.com.br"
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "name": "sample1.fastq",
+      "origin": "",
+      "study": "",
+      "patient": "",
+      "sample_type": "",
+      "analyte_type": "",
+      "biobank": "",
+      "platform": "",
+      "barcode": "",
+      "studyID": "3c913f5f-4a6d-4655-a629-17684936d792"
+    },
+    {
+      "id": 2,
+      "name": "sample2.fastq",
+      "origin": "",
+      "study": "",
+      "patient": "",
+      "sample_type": "",
+      "analyte_type": "",
+      "biobank": "",
+      "platform": "",
+      "barcode": "",
+      "studyID": "3c913f5f-4a6d-4655-a629-17684936d792"
     }
   ]
 }
