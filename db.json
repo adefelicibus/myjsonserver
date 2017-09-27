@@ -1,48 +1,499 @@
 {
   "cancer_types": [
     {
-      "id": 1,
+      "id": "BLCA",
       "name": "BLCA : Bladder Urothelial Carcinoma"
     },
     {
-      "id": 2,
+      "id": "BRCA",
       "name": "BRCA : Breast invasive carcinoma"
     },
     {
-      "id": 3,
+      "id": "CESC",
       "name": "CESC : Cervical Squamous Cell Carcinoma"
+    },
+    {
+      "id": "LAML",
+      "name": "LAML : Acute Myeloid Leukemia"
+    },
+    {
+      "id": "ACC",
+      "name": "ACC : Adrenocortical carcinoma"
+    },
+    {
+      "id": "LGG",
+      "name": "LGG : Brain Lower Grade Glioma"
+    },
+    {
+      "id": "CHOL",
+      "name": "CHOL : Cholangiocarcinoma"
+    },
+    {
+      "id": "LCML",
+      "name": "LCML : Chronic Myelogenous Leukemia"
+    },
+    {
+      "id": "COAD",
+      "name": "COAD : Colon adenocarcinoma"
+    },
+    {
+      "id": "ESCA",
+      "name": "ESCA : Esophageal carcinoma"
+    },
+    {
+      "id": "GBM",
+      "name": "GBM : Glioblastoma multiforme"
+    },
+    {
+      "id": "HNSC",
+      "name": "HNSC : Head and Neck squamous cell carcinoma"
+    },
+    {
+      "id": "KICH",
+      "name": "KICH : Kidney Chromophobe"
+    },
+    {
+      "id": "KIRC",
+      "name": "KIRC : Kidney renal clear cell carcinoma"
+    },
+    {
+      "id": "KIRP",
+      "name": "KIRP : Kidney renal papillary cell carcinoma"
+    },
+    {
+      "id": "LIHC",
+      "name": "LIHC : Liver hepatocellular carcinoma"
+    },
+    {
+      "id": "LUAD",
+      "name": "LUAD : Lung adenocarcinoma"
+    },
+    {
+      "id": "LUSC",
+      "name": "LUSC : Lung squamous cell carcinoma"
+    },
+    {
+      "id": "DLBC",
+      "name": "DLBC : Lymphoid Neoplasm Diffuse Large B-cell Lymphoma"
+    },
+    {
+      "id": "MESO",
+      "name": "MESO : Mesothelioma"
+    },
+    {
+      "id": "MISC",
+      "name": "MISC : Miscellaneous"
+    },
+    {
+      "id": "OV",
+      "name": "OV : Ovarian serous cystadenocarcinoma"
+    },
+    {
+      "id": "PAAD",
+      "name": "PAAD : Pancreatic adenocarcinoma"
+    },
+    {
+      "id": "PCPG",
+      "name": "PCPG : Pheochromocytoma and Paraganglioma"
+    },
+    {
+      "id": "PRAD",
+      "name": "PRAD : Prostate adenocarcinoma"
+    },
+    {
+      "id": "READ",
+      "name": "READ : Rectum adenocarcinoma"
+    },
+    {
+      "id": "SARC",
+      "name": "SARC : Sarcoma"
+    },
+    {
+      "id": "SKCM",
+      "name": "SKCM : Skin Cutaneous Melanoma"
+    },
+    {
+      "id": "STAD",
+      "name": "STAD : Stomach adenocarcinoma"
+    },
+    {
+      "id": "TGCT",
+      "name": "TGCT : Testicular Germ Cell Tumors"
+    },
+    {
+      "id": "THYM",
+      "name": "THYM : Thymoma"
+    },
+    {
+      "id": "THCA",
+      "name": "THCA : Thyroid carcinoma"
+    },
+    {
+      "id": "UCS",
+      "name": "UCS : Uterine Carcinosarcoma"
+    },
+    {
+      "id": "UCEC",
+      "name": "UCEC : Uterine Corpus Endometrial Carcinoma"
+    },
+    {
+      "id": "UVM",
+      "name": "UVM : Uveal Melanoma"
+    },
+    {
+      "id": "COADREAD",
+      "name": "COADREAD : Colorectal Adenocarcinoma"
+    },
+    {
+      "id": "SCLC",
+      "name": "SCLC : Small Cell Lung Cancer"
+    },
+    {
+      "id": "NSCLC",
+      "name": "NSCLC : Non-Small Cell Lung Cancer"
+    },
+    {
+      "id": "SCCO",
+      "name": "SCCO : Small Cell Carcinoma Ovary"
+    },
+    {
+      "id": "PAAC",
+      "name": "PAAC : Pancreatic Carcinoma"
+    },
+    {
+      "id": "PACT",
+      "name": "PACT : Pancreatic Cystic Tumor"
+    },
+    {
+      "id": "PANET",
+      "name": "PANET : Pancreatic Neuroendocrine Tumor"
     }
   ],
   "cancer_subtypes": [
     {
       "id": 1,
       "name": "Bladder Urothelial Carcinoma",
-      "cancerTypeID": 1
+      "cancerTypeID": "BLCA"
     },
     {
-      "id": 0,
-      "name": "Other",
-      "cancerTypeID": 1
-    },
-    {
-      "id": 1,
+      "id": 2,
       "name": "Invasive Breast Carcinoma",
-      "cancerTypeID": 2
+      "cancerTypeID": "BRCA"
     },
     {
-      "id": 0,
-      "name": "Other",
-      "cancerTypeID": 2
+      "id": 3,
+      "name": "Adenoid Cystic Carcinoma",
+      "cancerTypeID": "BRCA"
     },
     {
-      "id": 1,
+      "id": 4,
+      "name": "Cervical Squamous Cell",
+      "cancerTypeID": "CESC"
+    },
+    {
+      "id": 5,
+      "name": "Acute Myeloid Leukemia",
+      "cancerTypeID": "LAML"
+    },
+    {
+      "id": 6,
+      "name": "Acute Lymphoid Leukemia",
+      "cancerTypeID": "LAML"
+    },
+    {
+      "id": 7,
+      "name": "Chronic Lymphocytic Leukemia",
+      "cancerTypeID": "LAML"
+    },
+    {
+      "id": 8,
       "name": "Multiple Myeloma",
-      "cancerTypeID": 3
+      "cancerTypeID": "LAML"
     },
     {
-      "id": 0,
-      "name": "Other",
-      "cancerTypeID": 3
+      "id": 9,
+      "name": "Myelodysplasia",
+      "cancerTypeID": "LAML"
+    },
+    {
+      "id": 10,
+      "name": "Adrenocortical Carcinoma",
+      "cancerTypeID": "ACC"
+    },
+    {
+      "id": 11,
+      "name": "Brain Lower Grade Glioma",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 12,
+      "name": "Glanular Cell Tumor",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 13,
+      "name": "Glioblastoma",
+      "cancerTypeID": "GBM"
+    },
+    {
+      "id": 14,
+      "name": "Oligodendroglioma",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 15,
+      "name": "Medulloblastoma",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 16,
+      "name": "Neuroblastoma",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 17,
+      "name": "Pilocytic Astrocytoma",
+      "cancerTypeID": "LGG"
+    },
+    {
+      "id": 18,
+      "name": "Pheochromocytoma and Paraganglioma",
+      "cancerTypeID": "PCPG"
+    },
+    {
+      "id": 19,
+      "name": "Cholangiocarcinoma",
+      "cancerTypeID": "CHOL"
+    },
+    {
+      "id": 20,
+      "name": "Chronic Myelogenous Leukemia",
+      "cancerTypeID": "LCML"
+    },
+    {
+      "id": 21,
+      "name": "Colon adenocarcinoma",
+      "cancerTypeID": "COAD"
+    },
+    {
+      "id": 22,
+      "name": "Colorectal Adenocarcinoma",
+      "cancerTypeID": "COADREAD"
+    },
+    {
+      "id": 23,
+      "name": "Esophageal Squamous Cell Carcinoma",
+      "cancerTypeID": "ESCA"
+    },
+    {
+      "id": 24,
+      "name": "Gastric Adenocarcinoma",
+      "cancerTypeID": "ESCA"
+    },
+    {
+      "id": 25,
+      "name": "Esophagogastric Adenocarcinoma",
+      "cancerTypeID": "ESCA"
+    },
+    {
+      "id": 26,
+      "name": "Esophageal Adenocarcinoma",
+      "cancerTypeID": "ESCA"
+    },
+    {
+      "id": 27,
+      "name": "Esophageal Carcinoma",
+      "cancerTypeID": "ESCA"
+    },
+    {
+      "id": 28,
+      "name": "Stomach Adenocarcinoma",
+      "cancerTypeID": "STAD"
+    },
+    {
+      "id": 29,
+      "name": "Glioblastoma Multiforme",
+      "cancerTypeID": "GBM"
+    },
+    {
+      "id": 30,
+      "name": "Head and Neck squamous cell carcinoma",
+      "cancerTypeID": "HNSC"
+    },
+    {
+      "id": 31,
+      "name": "Nasopharyngeal Carcinoma",
+      "cancerTypeID": "HNSC"
+    },
+    {
+      "id": 32,
+      "name": "Adenoid Cystic Carcinoma",
+      "cancerTypeID": "HNSC"
+    },
+    {
+      "id": 33,
+      "name": "Renal Non-Clear Cell Carcinoma",
+      "cancerTypeID": "KICH"
+    },
+    {
+      "id": 34,
+      "name": "Renal Clear Cell Carcinoma",
+      "cancerTypeID": "KIRC"
+    },
+    {
+      "id": 35,
+      "name": "Kidney renal papillary cell carcinoma",
+      "cancerTypeID": "KIRP"
+    },
+    {
+      "id": 36,
+      "name": "Hepatocellular Carcinoma",
+      "cancerTypeID": "LIHC"
+    },
+    {
+      "id": 37,
+      "name": "Hepatocellular Adenoma",
+      "cancerTypeID": "LIHC"
+    },
+    {
+      "id": 38,
+      "name": "Lung adenocarcinoma",
+      "cancerTypeID": "LUAD"
+    },
+    {
+      "id": 39,
+      "name": "Lung squamous cell carcinoma",
+      "cancerTypeID": "LUSC"
+    },
+    {
+      "id": 40,
+      "name": "Small Cell Lung Cancer",
+      "cancerTypeID": "SCLC"
+    },
+    {
+      "id": 41,
+      "name": "Non-Small Cell Lung Cancer",
+      "cancerTypeID": "NSCLC"
+    },
+    {
+      "id": 42,
+      "name": "Lymphoid Neoplasm Diffuse Large B-cell Lymphoma",
+      "cancerTypeID": "DLBC"
+    },
+    {
+      "id": 43,
+      "name": "Mesothelioma",
+      "cancerTypeID": "MESO"
+    },
+    {
+      "id": 44,
+      "name": "Miscellaneous",
+      "cancerTypeID": "MISC"
+    },
+    {
+      "id": 45,
+      "name": "Ovarian serous cystadenocarcinomas",
+      "cancerTypeID": "OV"
+    },
+    {
+      "id": 46,
+      "name": "Small Cell Carcinoma Ovary",
+      "cancerTypeID": "SCCO"
+    },
+    {
+      "id": 47,
+      "name": "Pancreatic adenocarcinoma",
+      "cancerTypeID": "PAAD"
+    },
+    {
+      "id": 48,
+      "name": "Pancreatic Carcinoma",
+      "cancerTypeID": "PAAC"
+    },
+    {
+      "id": 49,
+      "name": "Pancreatic Cystic Tumor",
+      "cancerTypeID": "PACT"
+    },
+    {
+      "id": 50,
+      "name": "Pancreatic Neuroendocrine Tumor",
+      "cancerTypeID": "PANET"
+    },
+    {
+      "id": 51,
+      "name": "Prostate adenocarcinoma",
+      "cancerTypeID": "PRAD"
+    },
+    {
+      "id": 52,
+      "name": "Rectum adenocarcinoma",
+      "cancerTypeID": "READ"
+    },
+    {
+      "id": 53,
+      "name": "Sarcoma",
+      "cancerTypeID": "SARC"
+    },
+    {
+      "id": 54,
+      "name": "Rhabdomyosarcoma",
+      "cancerTypeID": "SARC"
+    },
+    {
+      "id": 55,
+      "name": "Ewing Sarcoma",
+      "cancerTypeID": "SARC"
+    },
+    {
+      "id": 56,
+      "name": "Skin Cutaneous Melanoma",
+      "cancerTypeID": "SKCM"
+    },
+    {
+      "id": 57,
+      "name": "Desmoplastic Melanoma",
+      "cancerTypeID": "SKCM"
+    },
+    {
+      "id": 58,
+      "name": "Cutaneous squamous cell carcinoma",
+      "cancerTypeID": "SKCM"
+    },
+    {
+      "id": 59,
+      "name": "Testicular Germ Cell Tumor",
+      "cancerTypeID": "TGCT"
+    },
+    {
+      "id": 60,
+      "name": "Thymoma",
+      "cancerTypeID": "THYM"
+    },
+    {
+      "id": 61,
+      "name": "Thymic Epithelial Tumor",
+      "cancerTypeID": "THYM"
+    },
+    {
+      "id": 62,
+      "name": "Thyroid carcinoma",
+      "cancerTypeID": "THCA"
+    },
+    {
+      "id": 63,
+      "name": "Uterine Carcinosarcoma",
+      "cancerTypeID": "UCS"
+    },
+    {
+      "id": 64,
+      "name": "Uterine Corpus Endometrial Carcinoma",
+      "cancerTypeID": "UCEC"
+    },
+    {
+      "id": 65,
+      "name": "Uveal Melanoma",
+      "cancerTypeID": "UVM"
     }
   ],
   "data_files": [
@@ -125,6 +576,59 @@
       "new_subtype_cancer": "",
       "data_files": "HD",
       "data_file_url": "HD",
+      "platform": "Illumina",
+      "obs": ""
+    },
+    {
+      "id": "eb28b484-735d-43fd-aaca-4d86b9d7b387",
+      "researcher": "Alexandre Defelicibus",
+      "email": "adefelicibus@gmail.com",
+      "center": "sdfssd",
+      "project": "sdfasdfsdd ",
+      "name_study": "Bladder Urothelial Carcinoma(SDFSSD, sdfasdfsdd )",
+      "description_study": "Teste de gs",
+      "type_cancer": "BLCA : Bladder Urothelial Carcinoma",
+      "subtype_cancer": "Bladder Urothelial Carcinoma",
+      "new_type_cancer": "",
+      "new_subtype_cancer": "",
+      "data_files": "Ion",
+      "data_file_url": "undefined",
+      "platform": "undefined",
+      "obs": ""
+    },
+    {
+      "id": "ac17e710-6c2e-4e87-a0cc-59c9a225958a",
+      "researcher": "Israel Tojal",
+      "email": "itojal@cipe.accamargo.org.br",
+      "center": "CIPE",
+      "project": "Multiple Myeloma",
+      "name_study": "Bladder Urothelial Carcinoma(CIPE, Multiple Myeloma)",
+      "description_study": "Source of instability ",
+      "type_cancer": "BLCA : Bladder Urothelial Carcinoma",
+      "subtype_cancer": "Bladder Urothelial Carcinoma",
+      "new_type_cancer": "Liq",
+      "new_subtype_cancer": "",
+      "data_files": "HD",
+      "data_file_url": "HD",
+      "platform": "Ion",
+      "obs": "asdf"
+    },
+    {
+      "id": "a4a27d9e-4757-4963-8fcc-a3c8c2761461",
+      "researcher": "Alexandre Defelicibus",
+      "email": "adefelicibus@gmail.com",
+      "center": "sdfssd",
+      "project": "sdfasdfsdd ",
+      "name_study": "Bladder Urothelial Carcinoma(SDFSSD, sdfasdfsdd )",
+      "description_study": "afda sdfasdf asd",
+      "type_cancer": "BLCA : Bladder Urothelial Carcinoma",
+      "subtype_cancer": "Bladder Urothelial Carcinoma",
+      "new_type_cancer": "",
+      "new_subtype_cancer": "",
+      "data_files": "HD",
+      "url_project": "",
+      "url_run": "",
+      "run_name": "",
       "platform": "Illumina",
       "obs": ""
     }
@@ -246,6 +750,46 @@
       "platform": "01",
       "barcode": "test-BLCA-1-BXE-01-1-0001",
       "studyID": "33442546-79d1-4344-84e0-3a0e19ff86de"
+    },
+    {
+      "id": "a0522351-2982-49e1-bed1-ca1dbd780125",
+      "name": "",
+      "origin": "sdfssd",
+      "study": "BLCA",
+      "patient": "5258",
+      "sample_type": "PR",
+      "analyte_type": "E",
+      "biobank": "9858",
+      "platform": "Ion",
+      "barcode": "sdfssd-BLCA-5258-PRE-Ion-9858-0001",
+      "studyID": "eb28b484-735d-43fd-aaca-4d86b9d7b387"
+    },
+    {
+      "id": "76efc537-c4c0-47d6-824c-f9dbc8ebb58b",
+      "name": "",
+      "origin": "CIPE",
+      "study": "BLCA",
+      "patient": "1212",
+      "sample_type": "BL",
+      "analyte_type": "R",
+      "biobank": "151",
+      "platform": "03",
+      "barcode": "CIPE-BLCA-1212-BLR-03-151-0001",
+      "studyID": "ac17e710-6c2e-4e87-a0cc-59c9a225958a"
+    },
+    {
+      "id": "043bccdf-ab3e-47fa-b799-c6c5c0990287",
+      "name": "",
+      "origin": "sdfssd",
+      "study": "BLCA",
+      "sample_name": "teste de amostra",
+      "patient": "0202",
+      "sample_type": "PR",
+      "analyte_type": "E",
+      "biobank": "0202",
+      "platform": "01",
+      "barcode": "sdfssd-BLCA-0202-PRE-01-0202-0001",
+      "studyID": "a4a27d9e-4757-4963-8fcc-a3c8c2761461"
     }
   ]
 }
