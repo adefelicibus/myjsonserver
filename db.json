@@ -546,6 +546,18 @@
       "run_name": "",
       "platform": "Ion",
       "studyID": "1175ef13-e4d8-4aaf-b96f-f9735d65e7e4"
+    },
+    {
+      "id": "c23056f4-629f-4537-8eff-97bc7a51e301",
+      "seq": "1",
+      "name": "ACCC-LUAD-1",
+      "data_files": "HD",
+      "url_project": "",
+      "url_run": "",
+      "ip_run": "",
+      "run_name": "",
+      "platform": "Illumina",
+      "studyID": "9db870a4-6853-48a8-b2a6-5540043c6957"
     }
   ],
   "studies": [
@@ -588,6 +600,26 @@
       "data": "19/10/2017",
       "user": "admin",
       "obs": "teste"
+    },
+    {
+      "id": "9db870a4-6853-48a8-b2a6-5540043c6957",
+      "researcher": "Israel Tojal da Silva",
+      "email": "itojal@accamargo.org.br",
+      "center": "ACCC",
+      "project": "Mutational Signatures - Lung",
+      "name_study": "Lung adenocarcinoma(ACCC, Mutational Signatures - Lung)",
+      "description_study": "600 samples were sequencing from patiets diagnosed at A.C. Camargo Cancer Center",
+      "type_cancer": "LUAD : Lung adenocarcinoma",
+      "subtype_cancer": "Lung adenocarcinoma",
+      "data_files": "HD",
+      "url_project": "",
+      "url_run": "",
+      "ip_run": "",
+      "run_name": "",
+      "platform": "Illumina",
+      "data": "25/10/2017",
+      "user": "admin",
+      "obs": ""
     }
   ],
   "files": [
@@ -665,6 +697,21 @@
       "barcode": "SDFSSD-ACC-323-MTE-02-34-001",
       "studyID": "1175ef13-e4d8-4aaf-b96f-f9735d65e7e4",
       "runID": "eaddc088-67e0-4401-b486-09d661c7713c"
+    },
+    {
+      "id": "e7435a97-a4a1-45b9-9571-3367208a6910",
+      "name": "",
+      "origin": "ACCC",
+      "study": "LUAD",
+      "sample_name": "S1",
+      "patient": "1",
+      "sample_type": "TU",
+      "analyte_type": "E",
+      "biobank": "1",
+      "platform": "01",
+      "barcode": "ACCC-LUAD-1-TUE-01-1-001",
+      "studyID": "9db870a4-6853-48a8-b2a6-5540043c6957",
+      "runID": "c23056f4-629f-4537-8eff-97bc7a51e301"
     }
   ]
 }
